@@ -1,0 +1,5 @@
+{
+  "name": "Simulador de Juros Compostos",
+  "description": "Uma calculadora de juros compostos para simular seus investimentos. Insira o valor inicial, aportes mensais, taxa de juros e período para ver a evolução do seu patrimônio com gráficos e tabelas detalhadas.",
+  "requestFramePermissions": []
+}
