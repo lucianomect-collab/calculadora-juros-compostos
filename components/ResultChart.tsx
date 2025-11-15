@@ -48,7 +48,7 @@ const ResultChart: React.FC<ResultChartProps> = ({ data }) => {
           />
           <Legend />
           <Line type="monotone" dataKey="totalInvested" name="Valor Investido" stroke="#374151" strokeWidth={2} dot={renderCustomDot} activeDot={{ r: 6 }} />
-          <Line type="monotone" dataKey="totalAccumulated" name="Total Acumulado" stroke="#A92428" strokeWidth={2} dot={renderCustomDot} activeDot={{ r: 6 }} />
+          <Line type="monotone" dataKey="totalAccumulated" name="Total Acumulado" stroke="#2C3FA5" strokeWidth={2} dot={renderCustomDot} activeDot={{ r: 6 }} />
         </LineChart>
       </ResponsiveContainer>
     </div>

@@ -1,11 +1,10 @@
-
 import React from 'react';
 
 const InfoSection: React.FC = () => {
   return (
     <div className="bg-white p-6 sm:p-8 rounded-xl shadow-sm mt-8 text-gray-700 space-y-8">
       <div className="space-y-4">
-        <h2 className="text-2xl font-bold text-brand-red-600">Como Usar o Simulador de Juros Compostos</h2>
+        <h2 className="text-2xl font-bold text-brand-blue-600">Como Usar o Simulador de Juros Compostos</h2>
         <p>Utilizar nossa ferramenta para projetar seus investimentos é simples e intuitivo. Siga estes passos:</p>
         <ol className="list-decimal list-inside space-y-2 pl-4">
           <li><strong>Valor Inicial:</strong> Insira a quantia com a qual você começará o investimento. Se for começar do zero, pode deixar em 0.</li>
@@ -17,7 +16,7 @@ const InfoSection: React.FC = () => {
       </div>
 
       <div className="space-y-4">
-        <h2 className="text-2xl font-bold text-brand-red-600">Entendendo a Fórmula dos Juros Compostos</h2>
+        <h2 className="text-2xl font-bold text-brand-blue-600">Entendendo a Fórmula dos Juros Compostos</h2>
         <p>A base para o crescimento exponencial dos seus investimentos é a fórmula dos juros compostos:</p>
         <p className="text-center font-mono bg-gray-100 p-4 rounded-md text-lg">M = C (1 + i) ^ t</p>
         <ul className="space-y-2">
@@ -30,7 +29,7 @@ const InfoSection: React.FC = () => {
       </div>
 
       <div className="space-y-4">
-        <h2 className="text-2xl font-bold text-brand-red-600">Juros Simples vs. Juros Compostos</h2>
+        <h2 className="text-2xl font-bold text-brand-blue-600">Juros Simples vs. Juros Compostos</h2>
         <p>A principal diferença reside em como os juros são calculados. Entenda de forma clara:</p>
         <ul className="space-y-3">
           <li>
